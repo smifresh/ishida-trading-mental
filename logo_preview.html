@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>確定ロゴデザイン：ISHIDA | TRADE MENTAL COACH（丸型グレー背景版）</title>
+  <title>Iの丸型グレー背景ロゴ：デザインサンプル比較</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -14,57 +14,68 @@
       padding: 50px 20px;
       line-height: 1.8;
     }
-    .container { max-width: 980px; margin: 0 auto; }
-    header { text-align: center; margin-bottom: 40px; }
+    .container { max-width: 1040px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 45px; }
     h1 {
       font-family: 'Noto Serif JP', serif;
-      font-size: 2.1rem;
+      font-size: 2.2rem;
       color: #0f1e3a;
       margin-bottom: 12px;
     }
     p.sub { font-size: 1.05rem; color: #64748b; }
 
+    .sample-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
     .card {
       background: #ffffff;
       border-radius: 16px;
       overflow: hidden;
-      box-shadow: 0 10px 30px rgba(15,30,58,0.08);
-      margin-bottom: 35px;
+      box-shadow: 0 10px 30px rgba(15,30,58,0.06);
       border: 1px solid #e2e8f0;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .card:hover {
+      box-shadow: 0 16px 36px rgba(15,30,58,0.1);
     }
     .card-header {
-      padding: 18px 28px;
+      padding: 16px 28px;
       background: #0f1e3a;
       color: #fff;
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       font-weight: 700;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .card-header .badge {
-      background: #c8a24a;
-      color: #0f1e3a;
       font-size: 0.8rem;
-      padding: 4px 10px;
+      padding: 4px 12px;
       border-radius: 20px;
       font-weight: 700;
     }
+    .badge-recommend { background: #c8a24a; color: #0f1e3a; }
+    .badge-normal { background: #334155; color: #e2e8f0; }
+
     .card-preview {
-      padding: 50px 40px;
+      padding: 45px 30px;
       display: flex;
       align-items: center;
       justify-content: center;
       background: #ffffff;
     }
-    .card-preview.dark { background: #0f1e3a; }
     .card-preview img {
       max-width: 100%;
-      height: 58px;
+      height: 64px;
       object-fit: contain;
     }
+
     .card-desc {
-      padding: 20px 28px;
+      padding: 18px 28px;
       background: #f8fafc;
       border-top: 1px solid #e2e8f0;
       font-size: 0.95rem;
@@ -72,24 +83,51 @@
     }
     .card-desc b { color: #0f1e3a; }
 
-    /* Webヘッダー実寸シミュレーション */
-    .mock-header {
+    /* Webヘッダー実寸シミュレーションセクション */
+    .mock-section {
       background: #ffffff;
+      border-radius: 16px;
+      padding: 30px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 10px 30px rgba(15,30,58,0.06);
+      margin-top: 50px;
+    }
+    .mock-section h2 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.4rem;
+      color: #0f1e3a;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .mock-header-item {
+      margin-bottom: 25px;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .mock-header-label {
+      padding: 8px 16px;
+      background: #f1f5f9;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #0f1e3a;
       border-bottom: 1px solid #e2e8f0;
-      padding: 14px 30px;
+    }
+    .mock-header-bar {
+      background: #ffffff;
+      padding: 12px 24px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.04);
     }
-    .mock-header img {
-      height: 42px;
+    .mock-header-bar img {
+      height: 40px;
       width: auto;
     }
     .mock-nav {
       display: flex;
-      gap: 24px;
-      font-size: 0.88rem;
+      gap: 20px;
+      font-size: 0.85rem;
       font-weight: 500;
       color: #334155;
     }
@@ -98,63 +136,122 @@
 <body>
   <div class="container">
     <header>
-      <h1>ロゴデザイン：丸型グレー背景 適用完了</h1>
+      <h1>丸型グレー背景ロゴ：サンプル比較（全5種類）</h1>
       <p class="sub">
-        ご指示通り、<b>Iのシンボルマークの背景に「丸くて薄いグレー調の背景」</b>を追加しました。<br>
-        コイン・エンブレムのようなプレミアム感と立体的なアイコン感が生まれました。
+        「I」のシンボルマークの背景に丸くて薄いグレー調を入れたバリエーションを5種類作成しました。<br>
+        お好みの質感・印象に合わせて、サイトに適用するデザインをお選びください。
       </p>
     </header>
 
-    <!-- メインプレビュー -->
-    <div class="card">
-      <div class="card-header">
-        最新ロゴ（丸型グレー背景・ISHIDA表記・Appleフォント）
-        <span class="badge">反映完了</span>
-      </div>
-      <div class="card-preview">
-        <img src="images/logo.svg" alt="ISHIDA TRADE MENTAL COACH">
-      </div>
-      <div class="card-desc">
-        <b>デザインの特徴:</b><br>
-        1. <b>丸型ソフトグレー背景</b>: シンボル「I＋成長チャート」の背後に、薄く上品なライトグレーの円形プレート（繊細なボーダー付き）を配置。<br>
-        2. <b>アイコンとしての独立感</b>: 白背景のWebヘッダーでもシンボルの輪郭が綺麗に浮かび上がり、高級ホテルのエンブレムのような上質感が出ました。<br>
-        3. <b>ISHIDA & Appleフォント</b>: 文字も「ISHIDA」でしっかり整い、右側の「TRADE MENTAL COACH」とのバランスも抜群です。
-      </div>
-    </div>
+    <div class="sample-grid">
 
-    <!-- Webサイト実機ヘッダーでの見え方 -->
-    <div class="card">
-      <div class="card-header">
-        Webサイトの実際のヘッダーでの見え方（実機サイズ）
-        <span class="badge">実機プレビュー</span>
-      </div>
-      <div class="mock-header">
-        <img src="images/logo.svg" alt="Header Logo">
-        <div class="mock-nav">
-          <span>ホーム</span>
-          <span>トレードメンタルとは</span>
-          <span>カリキュラム</span>
-          <span>プロフィール</span>
-          <span>お客様の声</span>
-          <span style="color: #c8a24a; font-weight: 700;">無料相談予約</span>
+      <!-- サンプル1 -->
+      <div class="card">
+        <div class="card-header">
+          ①【フラット・ソフトライトグレー】（枠線なし・すっきりミニマル）
+          <span class="badge badge-recommend">おすすめ No.1：洗練・モダン</span>
+        </div>
+        <div class="card-preview">
+          <img src="images/logo_sample1.svg" alt="サンプル1">
+        </div>
+        <div class="card-desc">
+          <b>特徴:</b> 枠線のない柔らかな単色ライトグレー（#f1f5f9）。Appleのように余計な装飾を削ぎ落とした、最もクリーンで知的な佇まいです。
         </div>
       </div>
-      <div class="card-desc">
-        <b>ヘッダーでの見え方:</b> 丸いグレー背景のおかげで、ヘッダーに配置した際のアイキャッチ効果が格段に向上しました。
+
+      <!-- サンプル2 -->
+      <div class="card">
+        <div class="card-header">
+          ②【繊細ボーダー付きライトグレー】（極細グレー枠線・エンブレム調）
+          <span class="badge badge-recommend">おすすめ No.2：クラシック高級感</span>
+        </div>
+        <div class="card-preview">
+          <img src="images/logo_sample2.svg" alt="サンプル2">
+        </div>
+        <div class="card-desc">
+          <b>特徴:</b> 薄いグレーに極細の繊細な枠線（1px）をプラス。コインや高級ホテルのエンブレムのような、上品な引き締まり感があります。
+        </div>
       </div>
+
+      <!-- サンプル5 -->
+      <div class="card">
+        <div class="card-header">
+          ③【ゴールド極細枠線 × 薄グレー】（ジュエリー・ラグジュアリー）
+          <span class="badge badge-normal">華やか・存在感</span>
+        </div>
+        <div class="card-preview">
+          <img src="images/logo_sample5.svg" alt="サンプル5">
+        </div>
+        <div class="card-desc">
+          <b>特徴:</b> 外枠にゴールドの極細ラインを採用。中の「I」シンボルのゴールドと美しく呼応し、プレミアムメゾンのような品格を醸し出します。
+        </div>
+      </div>
+
+      <!-- サンプル3 -->
+      <div class="card">
+        <div class="card-header">
+          ④【微細グラデーション・メダル風】（ほんのり立体感）
+          <span class="badge badge-normal">立体メダル調</span>
+        </div>
+        <div class="card-preview">
+          <img src="images/logo_sample3.svg" alt="サンプル3">
+        </div>
+        <div class="card-desc">
+          <b>特徴:</b> 上部が白、下部がライトグレーに優しく変化するグラデーション。コインの表面のような滑らかな立体感を感じさせます。
+        </div>
+      </div>
+
+      <!-- サンプル4 -->
+      <div class="card">
+        <div class="card-header">
+          ⑤【微細シャドウ付きフローティング】（ふわりと浮かぶ浮遊感）
+          <span class="badge badge-normal">リッチUI調</span>
+        </div>
+        <div class="card-preview">
+          <img src="images/logo_sample4.svg" alt="サンプル4">
+        </div>
+        <div class="card-desc">
+          <b>特徴:</b> ごく薄いソフトシャドウを落とし、背景からふわりと浮かび上がるようなリッチな浮遊感を持たせたスタイルです。
+        </div>
+      </div>
+
     </div>
 
-    <!-- ダーク背景（フッター等）での見え方 -->
-    <div class="card">
-      <div class="card-header" style="background: #091325;">
-        フッター（濃紺背景）での見え方
-        <span class="badge" style="background: #dfbb5a; color: #091325;">フッター版</span>
+    <!-- Webサイト実機ヘッダーでの見え方比較 -->
+    <div class="mock-section">
+      <h2>Webサイト実際のヘッダーでの見え方比較</h2>
+
+      <div class="mock-header-item">
+        <div class="mock-header-label">① フラット・ソフトライトグレー（枠線なし）</div>
+        <div class="mock-header-bar">
+          <img src="images/logo_sample1.svg" alt="Sample 1">
+          <div class="mock-nav">
+            <span>ホーム</span><span>トレードメンタルとは</span><span>カリキュラム</span><span>プロフィール</span><span>お客様の声</span>
+            <span style="color: #c8a24a; font-weight: 700;">無料相談予約</span>
+          </div>
+        </div>
       </div>
-      <div class="card-preview dark">
-        <img src="images/logo_footer.svg" alt="Footer Logo">
+
+      <div class="mock-header-item">
+        <div class="mock-header-label">② 繊細ボーダー付きライトグレー（極細枠線）</div>
+        <div class="mock-header-bar">
+          <img src="images/logo_sample2.svg" alt="Sample 2">
+          <div class="mock-nav">
+            <span>ホーム</span><span>トレードメンタルとは</span><span>カリキュラム</span><span>プロフィール</span><span>お客様の声</span>
+            <span style="color: #c8a24a; font-weight: 700;">無料相談予約</span>
+          </div>
+        </div>
       </div>
-      <div class="card-desc">
-        <b>濃紺背景:</b> 半透明の円形プレートが品よく浮かび上がり、夜間・ダークモードでも美しい佇まいを保ちます。
+
+      <div class="mock-header-item">
+        <div class="mock-header-label">③ ゴールド極細枠線 × 薄グレー</div>
+        <div class="mock-header-bar">
+          <img src="images/logo_sample5.svg" alt="Sample 5">
+          <div class="mock-nav">
+            <span>ホーム</span><span>トレードメンタルとは</span><span>カリキュラム</span><span>プロフィール</span><span>お客様の声</span>
+            <span style="color: #c8a24a; font-weight: 700;">無料相談予約</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
