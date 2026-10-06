@@ -1,26 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 70" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
-  <defs>
-    <linearGradient id="goldGradFooter" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f3d078"/>
-      <stop offset="50%" stop-color="#c8a24a"/>
-      <stop offset="100%" stop-color="#e2c77d"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 520 64" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <!-- シンボルマーク「I＋成長チャート」 -->
+  <image href="symbol_mark.png" x="8" y="6" width="64" height="52" />
 
-  <!-- シンボル「I」+ 上昇チャートライン -->
-  <!-- Iのセリフ柱 -->
-  <path d="M12 18 h14 v5 h-4.5 v24 h4.5 v5 h-14 v-5 h4.5 v-24 h-4.5 z" fill="url(#goldGradFooter)" />
-  <!-- ジグザグ上昇ライン -->
-  <path d="M16 43 L28 32 L36 38 L50 20" fill="none" stroke="url(#goldGradFooter)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
-  <!-- チャート先端のドット -->
-  <circle cx="53" cy="17" r="3.2" fill="url(#goldGradFooter)" />
+  <!-- SHIDA (ホワイト、極小サイズ) -->
+  <text x="78" y="44" font-family="'Cinzel', 'Cormorant Garamond', 'Georgia', serif" font-size="11" font-weight="700" fill="#ffffff" letter-spacing="4">SHIDA</text>
 
-  <!-- SHIDA テキスト (ホワイト) -->
-  <text x="58" y="47" font-family="'Cormorant Garamond', 'Times New Roman', serif" font-size="34" font-weight="600" fill="#ffffff" letter-spacing="1.5">SHIDA</text>
+  <!-- 繊細なディバイダー -->
+  <line x1="154" y1="28" x2="154" y2="46" stroke="#334155" stroke-width="1" />
 
-  <!-- 区切り縦線 -->
-  <line x1="202" y1="22" x2="202" y2="48" stroke="rgba(255,255,255,0.25)" stroke-width="1.2" />
-
-  <!-- TRADE MENTAL COACH サブテキスト (ゴールド) -->
-  <text x="218" y="38" font-family="'Noto Sans JP', 'Montserrat', sans-serif" font-size="10.5" font-weight="600" fill="#e2c77d" letter-spacing="2.2">TRADE MENTAL COACH</text>
+  <!-- TRADE MENTAL COACH (ゴールド、Apple SF Pro) -->
+  <text x="168" y="42" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', sans-serif" font-size="10.5" font-weight="500" fill="#dfbb5a" letter-spacing="3.2">TRADE MENTAL COACH</text>
 </svg>
