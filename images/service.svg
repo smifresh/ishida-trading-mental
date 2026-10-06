@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <!-- 仮のサービス画像（マンツーマンをイメージ）。写真に差し替え可 -->
+  <rect width="1600" height="900" fill="#1c2f55"/>
+  <circle cx="620" cy="360" r="110" fill="#2b4170"/>
+  <path d="M420 900 C420 660 520 540 620 540 S820 660 820 900Z" fill="#2b4170"/>
+  <circle cx="980" cy="360" r="110" fill="#c8a24a" fill-opacity="0.55"/>
+  <path d="M780 900 C780 660 880 540 980 540 S1180 660 1180 900Z" fill="#c8a24a" fill-opacity="0.55"/>
+  <text x="800" y="140" text-anchor="middle" font-family="serif" font-size="56" fill="#e2c77d" letter-spacing="8">1 on 1</text>
+</svg>

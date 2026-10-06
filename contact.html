@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>お問い合わせ｜N-Trading 石田直行</title>
+  <meta name="description" content="トレードメンタルコーチングに関するお問い合わせ・無料相談はこちらから。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== ヘッダー ===== -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__main">N<span>-</span>Trading</span>
+        <span class="logo__sub">トレードメンタルコーチ 石田直行</span>
+      </a>
+      <button class="hamburger" aria-label="メニュー" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">ホーム</a></li>
+          <li class="nav__item"><a href="mental.html" class="nav__link">トレードメンタルとは</a></li>
+          <li class="nav__item nav__item--has-child">
+            <a href="service.html" class="nav__link">サービス</a>
+            <div class="dropdown">
+              <a href="service.html">メンタルコーチング</a>
+              <a href="curriculum.html">カリキュラム</a>
+              <a href="service.html#flow">ご利用の流れ</a>
+              <a href="service.html#price">料金</a>
+              <a href="service.html#faq">よくある質問</a>
+            </div>
+          </li>
+          <li class="nav__item"><a href="curriculum.html" class="nav__link">カリキュラム</a></li>
+          <li class="nav__item"><a href="profile.html" class="nav__link">プロフィール</a></li>
+          <li class="nav__item"><a href="voice.html" class="nav__link">お客様の声</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__cta">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <span class="en">Contact</span>
+      <span class="ja">お問い合わせ</span>
+    </div>
+    <div class="breadcrumb"><div class="container"><a href="index.html">ホーム</a><span>&gt;</span>お問い合わせ</div></div>
+
+    <section class="section section--offwhite">
+      <div class="container">
+        <p class="lead fade-up" style="margin-bottom:50px;">メンタルコーチングに関するご相談・ご質問は、<br>下記フォームよりお気軽にお問い合わせください。</p>
+
+        <div class="contact-info fade-up">
+          <div class="contact-info__box">
+            <h4>無料相談</h4>
+            <p>現在のお悩みをお伺いし、<br>最適なサポートをご提案します。</p>
+          </div>
+          <div class="contact-info__box">
+            <h4>返信について</h4>
+            <p>通常2〜3営業日以内に<br>ご返信いたします。（※ダミー）</p>
+          </div>
+        </div>
+
+        <!-- ※送信先未設定。Formspree等を使う場合は action="https://formspree.io/f/xxxx" method="POST" を設定 -->
+        <form class="form js-contact-form fade-up" novalidate>
+          <div class="form__row">
+            <label class="form__label" for="name">お名前<span class="form__required">必須</span></label>
+            <input type="text" id="name" name="name" placeholder="例）山田 太郎" required>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="email">メールアドレス<span class="form__required">必須</span></label>
+            <input type="email" id="email" name="email" placeholder="例）example@mail.com" required>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="tel">電話番号<span class="form__optional">任意</span></label>
+            <input type="tel" id="tel" name="tel" placeholder="例）090-0000-0000">
+          </div>
+          <div class="form__row">
+            <p class="form__label">お問い合わせ種別<span class="form__required">必須</span></p>
+            <div class="form__radios">
+              <label><input type="radio" name="type" value="無料相談" required checked>無料相談</label>
+              <label><input type="radio" name="type" value="コーチングについて">コーチングについて</label>
+              <label><input type="radio" name="type" value="セミナー・講座依頼">セミナー・講座依頼</label>
+              <label><input type="radio" name="type" value="その他">その他</label>
+            </div>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="experience">投資歴<span class="form__optional">任意</span></label>
+            <select id="experience" name="experience">
+              <option value="">選択してください</option>
+              <option>1年未満</option>
+              <option>1〜3年</option>
+              <option>3〜5年</option>
+              <option>5年以上</option>
+            </select>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="message">ご相談内容<span class="form__required">必須</span></label>
+            <textarea id="message" name="message" placeholder="現在のお悩みなどをご自由にお書きください" required></textarea>
+          </div>
+          <p class="form__privacy"><label><input type="checkbox" name="privacy" required> <a href="#">プライバシーポリシー</a>に同意する</label></p>
+          <div class="form__submit"><button type="submit">送信する</button></div>
+          <p class="form__message">お問い合わせありがとうございます。<br>（※現在は送信先が未設定のため、実際には送信されていません）</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== フッター ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <a href="index.html" class="logo">
+            <span class="logo__main">N<span>-</span>Trading</span>
+            <span class="logo__sub">トレードメンタルコーチ 石田直行</span>
+          </a>
+          <p class="footer__desc">「知識はあるのに、なぜか勝てない」そんな投資家のためのメンタルコーチング。</p>
+        </div>
+        <nav class="footer__nav">
+          <a href="index.html">ホーム</a>
+          <a href="mental.html">トレードメンタルとは</a>
+          <a href="service.html">メンタルコーチング</a>
+          <a href="curriculum.html">カリキュラム</a>
+          <a href="profile.html">プロフィール</a>
+          <a href="voice.html">お客様の声</a>
+          <a href="contact.html">お問い合わせ</a>
+        </nav>
+      </div>
+      <p class="footer__copy">&copy;2026 N-Trading. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <a href="#" class="pagetop" aria-label="ページトップへ">↑</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

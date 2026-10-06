@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <!-- 仮のプロフィール写真。差し替え時は profile.jpg を用意し HTML の src を変更 -->
+  <rect width="800" height="1000" fill="#1c2f55"/>
+  <circle cx="400" cy="380" r="150" fill="#2b4170"/>
+  <path d="M130 1000 C130 760 260 620 400 620 S670 760 670 1000Z" fill="#2b4170"/>
+  <text x="400" y="900" text-anchor="middle" font-family="sans-serif" font-size="36" fill="#c8a24a">PHOTO</text>
+</svg>
